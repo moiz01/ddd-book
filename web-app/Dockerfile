@@ -2,7 +2,7 @@
 FROM alpine
 
 LABEL maintainer="moiz.ece@hotmail.com"
-
+LABEL app="web"
 # Install Node and NPM
 RUN apk add --update nodejs npm curl
 
